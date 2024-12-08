@@ -3,7 +3,7 @@
 * Apresentação pessoal e profissional
 
 <div align="center">
-  <img height="320" width="550" src="./imagem/imagem site.png" alt="Imagem do site">
+  <img height="400" width="650" src="./imagem/imagem site.png" alt="Imagem do site">
 </div>
 
 ### Link do site
