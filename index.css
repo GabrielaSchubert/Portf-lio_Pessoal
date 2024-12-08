@@ -10,6 +10,7 @@ body {
     font-family: "Lora";
     font-weight: 400;
     font-style: normal;
+    margin: 0 auto;
 }
 .name {
     font-family: "Baskervville SC", sans-serif;
@@ -29,10 +30,14 @@ ul {
 a {
     color: white;
     text-decoration: none;
+    padding: 8px 12px;
+    transition: color 0.3s, background-color 0.3s;
 }
 /*Detalhe na introdução da página e meio*/
 a:hover {
     color: #CC0000;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
 }
 /*Editando a foto central do index*/
 .imgcenter {
@@ -59,7 +64,7 @@ h2 {
 }
 /*Centralizando*/
 .container {
-    padding: 0 50px;
+    padding: 0 20px;
     position: relative
 }
 /*Icones*/
@@ -91,7 +96,7 @@ h2 {
 .relogio-container {
     position: absolute;
     right: 5%; /* Ajusta a distância do lado direito da página */
-    top: 40%;
+    top: 20%;
     transform: translateY(-50%);
 }
 #clock {
@@ -112,13 +117,40 @@ h2 {
 @media (max-width: 600px) {
     .relogio-container {
         right: 2%; /* Ajusta a distância do lado direito em telas menores */
-        top: 20%; /* Ajusta a distância do topo em telas menores */
+        top: 10%; /* Ajusta a distância do topo em telas menores */
     }
     #clock {
         font-size: 1.2em; /* Ajusta o tamanho do texto em telas menores */
         padding: 0.5em; /* Ajusta o preenchimento em telas menores */
         width: 90%; /* Ajusta a largura para telas menores */
     }
+}
+/*Carrossel*/
+.carousel-item {
+    display: none;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 500px; /* Altura fixa para o item do carrossel */
+    width: 100%; /* Largura total */
+    text-align: center; /* Alinhamento do conteúdo */
+}
+.carousel-item.active {
+    display: flex;
+}
+
+.carousel-inner {
+    position: relative; /* Configura o posicionamento relativo */
+    width: 100%; 
+    height: 100%; 
+}
+
+.carousel-inner img {
+    display: block; /* Garante que as imagens sejam tratadas como blocos */
+    max-height: 300px; /* Define uma altura máxima  */
+    max-width: 100%; /* Mantém a responsividade horizontal */
+    margin: auto; /* Centraliza horizontalmente e verticalmente */
+    object-fit: contain; /* Garante que as imagens mantenham suas proporções  */
+    border-radius: 10px; /* Bordas arredondadas */
 }
 /*Rodapé*/
 .rodape {
