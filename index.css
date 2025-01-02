@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 .name {
-    font-family: "Baskervville SC", sans-serif;
+    font-family: "Baskervville SC";
     font-weight: 400;
     font-style: normal;
   }  
@@ -53,7 +53,7 @@ a:hover {
 /*Estilizando os hs*/
 h1,h3 {
     color: #BE2929;
-    font-family: "Baskervville SC", sans-serif;
+    font-family: "Baskervville SC";
     font-weight: 400;
     font-style: normal;
 }
@@ -65,13 +65,13 @@ h2 {
 /*Centralizando*/
 .container {
     padding: 0 20px;
-    position: relative
+    position: relative;
 }
 /*Icones*/
 .img-icones {
     width: 80px;
     height: 60px;
-    object-fit: contain; /* Mantém a imagem nítida*/
+    object-fit: contain; /* Mantém a imagem nítida */
 }
 .img-project {
     width: 160px;
@@ -95,7 +95,7 @@ h2 {
 /*Ajustes do designer do relógio*/
 .relogio-container {
     position: absolute;
-    right: 5%; /* Ajusta a distância do lado direito da página */
+    right: 2%; /* Ajusta a distância do lado direito da página */
     top: 20%;
     transform: translateY(-50%);
 }
@@ -145,11 +145,11 @@ h2 {
 }
 
 .carousel-inner img {
-    display: block; /* Garante que as imagens sejam tratadas como blocos */
+    display: block; /* Imagens como blocos */
     max-height: 300px; /* Define uma altura máxima  */
     max-width: 100%; /* Mantém a responsividade horizontal */
     margin: auto; /* Centraliza horizontalmente e verticalmente */
-    object-fit: contain; /* Garante que as imagens mantenham suas proporções  */
+    object-fit: contain; /* Garante as proporções das imagens  */
     border-radius: 10px; /* Bordas arredondadas */
 }
 /*Rodapé*/
