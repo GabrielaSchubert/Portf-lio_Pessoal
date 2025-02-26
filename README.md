@@ -3,7 +3,7 @@
 * Apresentação pessoal e profissional
 
 <div align="center">
-  <img height="400" width="650" src="./imagem/imagem site.png" alt="Imagem do site publicado no netlify">
+  <img height="400" width="650" src="/src/imagem/imagem site.png" alt="Imagem do site publicado no netlify">
 </div>
 
 ### Link do site
